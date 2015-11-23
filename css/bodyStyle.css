@@ -1,0 +1,57 @@
+.btn {
+    -moz-box-shadow:inset 0px -5px 0px -24px #ffffff;
+    -webkit-box-shadow:inset 0px -5px 0px -24px #ffffff;
+    box-shadow:inset 0px -5px 0px -24px #ffffff;
+    background-color:#ededed;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:darkslategrey;
+    font-size: 14px;
+    padding:3px 10px;
+    text-decoration:none;
+
+}
+.btn:hover {
+    background-color:lightblue;
+    color: darkslategrey;
+}
+.btn:active {
+    position:relative;
+    top:1px;
+}
+#login_btn{
+    width: 40px;
+    height: 80px;
+    padding: 0px;
+    margin-left: 2px;
+    align-items: center;
+}
+
+#form_join{
+    margin: 20px;
+    font-size: small;
+}
+#form_join td{
+    border-bottom: solid 1px;
+    border-color: darkgray;
+}
+#join1{
+    padding-left: 20px;
+    border-right: solid 1px;
+    width: 130px; height: 50px;
+}
+#join2{
+    padding-left: 20px;
+    width: 180px;
+}
+#join3{
+    width: 300px;
+}
+
+#email1, #email2{
+    float: left;
+}
